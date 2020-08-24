@@ -1,0 +1,28 @@
+.transaction-heading{
+    font-family: BerkeleyStd;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.14;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #022737;
+    margin: 40px 15px 0px 15px;
+}
+.loadingContainer{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.loadingContainer div{
+    width: 60px;
+   font-size: 20px;
+   font-family: BerkeleyStd;
+}
+@media only screen  and (max-width: 667px) {
+    .transaction-heading{
+        font-size: 20px;
+    }
+}
